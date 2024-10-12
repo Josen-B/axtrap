@@ -18,13 +18,13 @@ preempt = ["axtask/preempt", "percpu/preempt", "kernel_guard/preempt"]
 axlog = { git = "https://github.com/Starry-OS/axlog.git" }
 cfg-if = "1.0"
 log = "0.4"
-linux_syscall_api = { git = "https://github.com/Starry-OS/linux_syscall_api.git", optional = true }
+linux_syscall_api = { git = "https://github.com/Josen-B/linux_syscall_api.git", optional = true }
 handler_table = { git = "https://github.com/Starry-OS/handler_table.git" }
 lazy_init = { git = "https://github.com/Starry-OS/lazy_init.git" }
-axhal = { git = "https://github.com/Starry-OS/axhal.git" }
-axtask = { git = "https://github.com/Starry-OS/axtask.git", optional = true }
-kernel_guard = { git = "https://github.com/Starry-OS/kernel_guard.git" }
-percpu = { git = "https://github.com/Starry-OS/percpu.git" }
+axhal = { git = "https://github.com/Josen-B/axhal.git" }
+axtask = { git = "https://github.com/Josen-B/axtask.git", optional = true }
+kernel_guard = { git = "https://github.com/Josen-B/kernel_guard.git" }
+percpu = { git = "https://github.com/Josen-B/percpu.git" }
 
 [target.'cfg(target_arch = "x86_64")'.dependencies]
 x86 = "0.52"
